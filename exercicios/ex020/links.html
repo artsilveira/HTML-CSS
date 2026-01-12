@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(223, 8, 8);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: aqua;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(0, 183, 255);
+        }
+
+        .especial::after {
+            content: '<=';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/#_=_" target="_blank">Repositório</a></li>
+        <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank" class="especial">canal</a></li>
+        <li><a href="https://br.pinterest.com/" target="_blank">Site</a></li>
+    </ul>
+</body>
+</html>
